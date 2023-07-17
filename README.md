@@ -29,7 +29,7 @@ The CapacityTestDataPoint represents all the inputs needed for the send_through_
     2. Ambient temperature
     3. Wind speed
     4. Correction factors (relevant to calculate plane of array (POA) irradiance)
-    5. timestamp
+    5. Timestamp
 
 -  Climate and performance data from your data acquisition system:
     1. Temperature
@@ -48,11 +48,11 @@ This is roughly how the sieve stack decides which data points keep and which to 
 - Exclude data above the clipping point of the inverter 
 - Reporting condition POA should be sorted in a +/-20% range 
 
-- temperature sorting requirements?
+- Temperature sorting requirements?
 
-- wind sorting requirements?
+- Wind sorting requirements?
 
-- exclusions applied "because they do not correlate with the performance"? 
+- Exclusions applied "because they do not correlate with the performance"? 
 
 <br/>
 

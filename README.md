@@ -102,15 +102,19 @@ Deploy the "send_through_sieve_stack" function and a Rust _library_ so that it c
 Here are some other potential names for this project:
 
 - Sieve Stack 6000
-- The Grim Siever
+- Pure Sieve Stack
+- DSD Sieve Stack
 - Sievester Stallone
 - Sievezilla
 - Keanu Sieves
-- A Sieve Data
+- A Sieve Sieves
 - Sieve City
-- Pure Seive
-- Savage Sievage
+- The Grim Siever
+- Savage Sieve Stack
 - Let's Sieve We Can Do This
-- New Year's Sieve
+- New Year's Sieve Stack
+- Sieveral Names At Once
+- Sieven Spielberg
+- Sieve You Can Think Of Any!
 
   <br/>

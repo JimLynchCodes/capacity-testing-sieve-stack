@@ -8,6 +8,10 @@ mod custom_types;
 mod send_through_sieve_stack;
 mod unit_test_mocks;
 
+mod sieves {
+    pub(super) mod poa_range;
+}
+
 /// Runs the filtering logic locally with a custom csv
 // fn main() -> Result<(), Box<dyn Error>> {
 fn main() {

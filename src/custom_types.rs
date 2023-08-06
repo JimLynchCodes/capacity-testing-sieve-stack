@@ -14,4 +14,6 @@ pub struct CapacityTestDataPoint {
     pub observed_wind_speed: f64,
     pub observed_plane_of_irrandiance: f64,
     pub observed_timestamp: Instant,
+
+    pub has_shade: bool,
 }

@@ -16,5 +16,7 @@ pub fn dummy_input_data_point() -> CapacityTestDataPoint {
         observed_wind_speed: 6.0,
         observed_plane_of_irrandiance: 7.0,
         observed_timestamp: now + Duration::new(2000, 0),
+
+        has_shade: false
     }
 }

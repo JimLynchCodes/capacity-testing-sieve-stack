@@ -17,7 +17,7 @@ Custom Types:
 
 Functions:
 
-- send_through_sieve_stack: Takes a list of one or more CapacityTestDataPoints and returns an _option_ type of either None (when none of the inputs data points are usable) or _some_ containing the usable data points.
+- send_through_sieve_stack: Takes a collection of one or more CapacityTestDataPoints and returns the subset of data points that should be used for the capacity performance ratio tests.
 
 <br/>
 

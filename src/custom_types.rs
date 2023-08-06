@@ -1,5 +1,6 @@
 use std::time::Instant;
 
+#[derive(Debug)]
 pub struct CapacityTestDataPoint {
     // "model" prefix means from the PVSYST model
     pub model_ghi: f64,

@@ -1,13 +1,16 @@
-use crate::{custom_types::CapacityTestDataPoint, sieves::poa_range::filter_within_20_percent_poa};
-
+use crate::{
+    sieves::{
+        not_clipping::filter_for_not_clipping, within_poa_range::filter_within_60_percent_poa,
+    },
+    types::capacity_test_model_data_point::CapacityTestModelDataPoint,
+};
 
 pub fn send_through_sieve_stack(
-    _input_data_points: Vec<CapacityTestDataPoint>,
-) -> Vec<CapacityTestDataPoint> {
- 
-    let filtered_within_poa_range = filter_within_20_percent_poa(_input_data_points);
-    // let filtered_no_shading = filter_for_no_shading(filtered_within_poa_range);
-    
+    _input_data_points: Vec<CapacityTestModelDataPoint>,
+) -> Vec<CapacityTestModelDataPoint> {
+    let filtered_no_shading = filter_for_not_clipping(_input_data_points);
+    let filtered_within_poa_range = filter_within_60_percent_poa(filtered_no_shading);
+
     // Add more filters as needed...
 
     filtered_within_poa_range

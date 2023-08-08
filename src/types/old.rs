@@ -1,7 +1,7 @@
 use std::time::Instant;
 
 #[derive(Debug)]
-pub struct CapacityTestDataPoint {
+pub struct CapacityTestDataPointOld {
     // "model" prefix means from the PVSYST model
     pub model_ghi: f64,
     pub model_temperatute: f64,

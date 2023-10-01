@@ -1,7 +1,7 @@
 
 # Capacity Testing Data Point Sieve Stack
 
-A function that filters data points for ASTM 2848-13 capacity and performance ratio tests.
+A function that filters data points for ASTM 2848-13 capacity and performance ratio tests!
 
 <br/>
 
